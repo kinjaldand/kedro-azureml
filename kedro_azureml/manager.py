@@ -77,6 +77,7 @@ CONFIG_LOADER_ARGS = {
         # self.session = KedroSession.create(
         #     self.package_name, env=self.env, extra_params=self.extra_params
         # )
+        # chanegs for managing conf error
         self.session = KedroSession.create(
             project_path=None, env=self.env, extra_params=self.extra_params
         )
